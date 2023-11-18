@@ -2,8 +2,14 @@
 
 Integrative analysis of sequencing data of DNA replication origins.
 
-The coordinates of 20250 shared origins are provided in this file: shared_origins.bed
+1. shared_origins.bed 
+The coordinates of 20250 shared origins are provided in this file. (size: 300bp)
 
-The pipeline of processing SNS-seq data: SNS-seq_processing_pipeline.sh
+2. all_totalPeak.bed
+The coordinates of union origins defined by any SNS-seq sample. (size: 300bp)
 
-The exponential model to find high-confidence shared SNS-seq origins: fit_NSseq300bp_occupancyScore_to_exponential.py
+3. SNS-seq_processing_pipeline.sh
+The pipeline to processing SNS-seq data.
+
+4. fit_NSseq300bp_occupancyScore_to_exponential.py
+The exponential model to find high-confidence shared SNS-seq origins.
