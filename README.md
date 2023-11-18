@@ -6,4 +6,4 @@ The coordinates of 20250 shared origins are provided in this file: shared_origin
 
 The pipeline of processing SNS-seq data: SNS-seq_processing_pipeline.sh
 
-The exponential model to find high-confidence shared SNS-seq origins:
+The exponential model to find high-confidence shared SNS-seq origins: fit_NSseq300bp_occupancyScore_to_exponential.py
